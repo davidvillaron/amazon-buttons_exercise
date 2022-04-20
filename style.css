@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500&display=swap');
+
+* {
+    font-family: 'Nunito', sans-serif;
+}
+
+.border-box {
+    position: absolute;
+    top: 25%;
+    width: 100%;
+    height: 100%;
+
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 75px;
+    
+}
+
+.flex-container .button-options  {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    font-weight: 800;
+    width: 300px;
+
+}
+.border-box .flex-container .button-options .track-btn {
+    background-image: linear-gradient(to bottom, #f6d995 0%, #f4d283 51%, #F1c45a 100%)
+}
+.amzn-btn {
+    background-color: #ECEDF0;
+
+}
+button {
+    border-color: #b4b8bd;
+    border-radius: 4px;
+    font-size: 17px;
+
+}
+
+.track-btn, .amzn-btn {
+    padding: 11px;
+}
